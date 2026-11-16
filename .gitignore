@@ -1,0 +1,20 @@
+# Build output
+.gradle/
+build/
+captures/
+*.apk
+*.aab
+
+# Local settings and keys (colay.key lives in local.properties)
+local.properties
+*.keystore
+*.jks
+
+# Editor and tool files
+.idea/
+.vscode/
+.fleet/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp

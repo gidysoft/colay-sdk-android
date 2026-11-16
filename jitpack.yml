@@ -1,0 +1,5 @@
+# JitPack build: only the library module is published, built with JDK 17
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :colay:publishReleasePublicationToMavenLocal
